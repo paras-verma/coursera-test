@@ -17,6 +17,7 @@ h1 {
     border: black solid;
     background-color: grey;
     display: inline-block;
+    height: 150px;
 }
 
 .item-title { 
@@ -45,4 +46,18 @@ h1 {
     clear: both;
     padding: 5px 10px;
     text-align: left;
+}
+
+/* Media Queries */
+
+@media (min-width: 950px) and (max-width:1199px) {
+    .menu-item {
+        height: 110px;
+    }
+}
+
+@media (max-width:949px) {
+    .menu-item {
+        height: 110px;
+    }
 }
