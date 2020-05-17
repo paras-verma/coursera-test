@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.menu-item {
+    border: black solid;
+    background-color: grey;
+    display: inline-block;
+}
+
+.item-title { 
+    border: black solid;
+    border-top: 0;
+    border-right: 0;
+    width: 100px;
+    float: right;
+    font-weight: bold;
+}
+
+#Chicken {
+    background-color: pink;
+}
+
+#Beef {
+    background-color: rgb(216, 63, 63);
+    color: white;
+}
+
+#Sushi {
+    background-color: rgb(255, 255, 130);
+}
+
+.item-descp {
+    clear: both;
+    padding: 5px 10px;
+    text-align: left;
+}
