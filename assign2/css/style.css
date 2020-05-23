@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: grey !important;
+}
+
+.nav-item {
+    background-color: white;
+    border-bottom: thin solid black;
+}
+
+.food-item {
+    background-color: grey;
+    padding: .5rem;
+    margin: .1rem;
+    height: 100vh;
+    overflow: hidden;
+}
